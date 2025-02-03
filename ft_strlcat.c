@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+     For strlcat() that means the initial length of dst plus the length of
+     src.  While this may seem somewhat confusing, it was done to make trunca‐
+     tion detection simple.
+*/
+
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	unsigned int	i;
@@ -31,10 +37,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[destlen + i] = '\0';
 	return (destlen + srclen);
 }
-/*
-RETURN VALUE
-For strlcpy() that means the length of src.
-     For strlcat() that means the initial length of dst plus the length of
-     src.  While this may seem somewhat confusing, it was done to make trunca‐
-     tion detection simple.
-*/

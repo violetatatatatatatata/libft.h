@@ -13,8 +13,9 @@
 #include "libft.h"
 
 /*
-(Integer to ASCII) es una función que convierte un número entero en una cadena
-de caracteres (char *), es decir, transforma un int en una string.
+	(Integer to ASCII) es una función que convierte un número entero en
+	una cadena de caracteres (char *), es decir, transforma un int en una
+	string.
 */
 
 static int	num_str_len(int n);
@@ -72,38 +73,3 @@ static long	itol_abs(int n)
 		return ((long)n * -1);
 	return ((long)n);
 }
-/*
-#include <stdio.h>
-#include <stdlib.h>
-
-// Prototip de la teva funció
-char *ft_itoa(int n);
-
-int main(void)
-{
-    int test_values[] = {0, 42, -42, 123456, -987654, 2147483647, -2147483648};
-    size_t num_tests = sizeof(test_values) / sizeof(test_values[0]);
-
-    for (size_t i = 0; i < num_tests; i++)
-    {
-        char *result = ft_itoa(test_values[i]);
-        if (result)
-        {
-            printf("ft_itoa(%d) = \"%s\"\n", test_values[i], result);
-            free(result); // Alliberem la memòria per evitar fuites
-        }
-        else
-        {
-            printf("Error convertint %d\n", test_values[i]);
-        }
-    }
-
-    return 0;
-}
-*/
-/*
-Divideix repetidament el número per la base per extreure cada dígit.
-Guarda els dígits en un buffer en ordre invers.
-Si el número és negatiu i la base és 10, afegeix el signe -.
-Inverteix la cadena per obtenir el resultat correcte.
-*/

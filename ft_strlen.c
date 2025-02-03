@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+// Retorna la longitud del string
+
 size_t	ft_strlen(const char *s)
 {
 	size_t	i;
@@ -24,16 +26,3 @@ size_t	ft_strlen(const char *s)
 	}
 	return (i);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	str[] = "Hello, world!";;
-	size_t	len;
-
-	len = ft_strlen(str);
-	printf("Length of the string: %zu\n", len);
-	return (0);
-}
-*/

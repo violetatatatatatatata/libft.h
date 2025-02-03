@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*
-La función ft_strmapi aplica una función dada (f) a cada carácter de una cadena
-(s) y genera una nueva cadena con los valores modificados.
+	La función ft_strmapi aplica una función dada (f) a cada carácter de
+	una cadena (s) y genera una nueva cadena con los valores modificados.
 */
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))

@@ -13,8 +13,9 @@
 #include "libft.h"
 
 /*
-La función ft_striteri aplica una función dada (f) a cada carácter de una
-cadena (s), modificándola directamente sin generar una nueva cadena.
+	La función ft_striteri aplica una función dada (f) a cada carácter
+	de una cadena (s), modificándola directamente sin generar una nueva
+	cadena.
 */
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))

@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+       The  strchr() function returns a pointer to the first occurrence of the
+       character c in the string s.
+*/
+
 char	*ft_strchr(const char *s, int c)
 {
 	int	i;
@@ -27,8 +32,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
-/*
-DESCRIPTION
-       The  strchr() function returns a pointer to the first occurrence of the
-       character c in the string s.
-*/

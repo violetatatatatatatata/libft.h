@@ -3,9 +3,9 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: cbolanos <cbolanos@student.42barcelon      +#+  +:+       +#+         #
+#    By: avelandr <avelandr@student.42barcelon      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/01/08 13:25:46 by cbolanos          #+#    #+#              #
+#    Created: 2025/01/08 13:25:46 by avelandr          #+#    #+#              #
 #    Updated: 2025/01/31 19:04:05 by avelandr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #

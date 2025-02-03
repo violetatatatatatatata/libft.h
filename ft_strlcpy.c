@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+     The strlcpy() function copies up to size - 1 characters from the NUL-ter‐
+     minated string src to dst, NUL-terminating the result.
+*/
+
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t			src_len;
@@ -37,12 +42,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	dst_aux[i] = '\0';
 	return (src_len);
 }
-/*
-DESCRIPTION
-	The strlcpy() function copies up to size - 1 characters from the NUL-ter‐
-     minated string src to dst, NUL-terminating the result.
-
-RETURN VALUE
-	The strlcpy() and strlcat() functions return the total length of the
-     string they tried to create.
-*/

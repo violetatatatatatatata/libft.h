@@ -21,6 +21,3 @@ int	ft_isdigit(int c)
 		return (isdigit);
 	return (0);
 }
-/*
-checks for a digit
-*/

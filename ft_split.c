@@ -18,10 +18,10 @@ char		**extract_words(char const *s, char c, char **array);
 char		**free_memory(char **array, int i);
 
 /*
-Reserva (utilizando malloc(3)) un array de strings
-resultante de separar la string ’s’ en substrings
-utilizando el caracter ’c’ como delimitador. El
-array debe terminar con un puntero NULL.
+	Reserva (utilizando malloc(3)) un array de strings
+	resultante de separar la string ’s’ en substrings
+	utilizando el caracter ’c’ como delimitador. El
+	array debe terminar con un puntero NULL.
 */
 
 char	**ft_split(char const *s, char c)

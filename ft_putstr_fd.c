@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*
-Envía el string 's' al file descriptor especificado. Un descriptor de archivo
-es un entero sin signo utilizado por un proceso para identificar un archivo
-abierto.
+	Envía el string 's' al file descriptor especificado. Un descriptor de
+	archivo es un entero sin signo utilizado por un proceso para
+	identificar un archivo abierto.
 */
 
 void	ft_putstr_fd(char *s, int fd)

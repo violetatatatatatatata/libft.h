@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*
-Reserva (con malloc(3)) y devuelve una nueva
-string, formada por la concatenación de ’s1’ y ’s2’.
+	Reserva (con malloc(3)) y devuelve una nueva
+	string, formada por la concatenación de ’s1’ y ’s2’.
 */
 
 char	*ft_strjoin(char const *s1, char const *s2)
