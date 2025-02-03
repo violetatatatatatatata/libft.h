@@ -12,6 +12,13 @@
 
 #include "libft.h"
 
+/*
+       The  memcpy()  function  copies  n bytes from memory
+       area src to memory area dest.  The memory areas must
+       not  overlap.  Use memmove(3) if the memory areas do
+       overlap.
+*/
+
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	size_t			i;
@@ -28,27 +35,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*
-       The  memcpy()  function  copies  n bytes from memory
-       area src to memory area dest.  The memory areas must
-       not  overlap.  Use memmove(3) if the memory areas do
-       overlap.
-*/
-/*
-#include <stdio.h>
-#include <string.h>
-void *ft_memcpy(void *dest, const void *src, size_t n);
-
-int main(void)
-{
-    char dest[20] = "XXXXXXXXXX";
-    ft_memcpy(dest, "Hola", 4);
-    printf("%s\n", dest);  // Esperat: "HolaXXXXXX"
-
-    char src[] = "Món!";
-    ft_memcpy(dest + 5, src, 4);
-    printf("%s\n", dest);  // Esperat: "HolaXMon!"
-
-    return 0;
-}
-*/
