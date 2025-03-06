@@ -145,11 +145,3 @@ This repository contains the implementation of the **libft** project, a custom C
 
 ### `ft_striteri`
 - Applies a function to each character of a string, modifying it in place.
-
----
-
-## How to Use
-
-COMANDOS
-	make :		genera archivos .o
-	make fclean:	limpia archivos .o
