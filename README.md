@@ -1,5 +1,7 @@
 # Libft.h
 
+![til](https://c.tenor.com/XKwzkocGdvYAAAAC/tenor.gif)
+
 ### memory_conversion
 Contiene funciones para la manipulación directa de la memoria y la conversión de tipos.
 - **`ft_atoi`**: Convierte una cadena de caracteres a un número entero.
